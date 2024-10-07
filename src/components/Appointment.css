@@ -1,0 +1,68 @@
+.appointment-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment-form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; /* To position the close button */
+}
+
+.close-button {
+    position: absolute; /* Positioning relative to the form */
+    top: 10px;
+    right: 10px;
+    background: none; /* No background */
+    border: none; /* No border */
+    color: #333; /* Color of the cross */
+    font-size: 24px; /* Size of the cross */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.close-button:hover {
+    color: #e74c3c; /* Change color on hover */
+}
+
+.appointment-form h2 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark color for headings */
+}
+
+.appointment-form input,
+.appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #333; /* Dark color for input text */
+}
+
+.appointment-form button {
+    padding: 10px 20px;
+    background-color: #18bc9c;
+    color: #fff; /* White text for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background-color: #16a085;
+}
+
+.appointment-form button[type="button"] {
+    background-color: black;
+    margin-left: 10px;
+}

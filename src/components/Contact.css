@@ -1,0 +1,53 @@
+.contact-container {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-between; /* Space between form and map */
+  padding: 50px 20px; /* Adjust padding as needed */
+}
+
+.map-container {
+  flex: 1; /* Map will take available space */
+  margin-right: 20px; /* Space between map and form */
+}
+
+.contact-form {
+  flex: 1; /* Form will take available space */
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #18bc9c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin-top: 30px; /* Space between form and contact info */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons img {
+  width: 30px; /* Adjust icon size */
+  height: 30px;
+}
